@@ -13,6 +13,7 @@ public class AimCircle : MonoBehaviour
     {
         Instance = gameObject;
         Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
         this.gameObject.SetActive(false);
     }
     void Update()
